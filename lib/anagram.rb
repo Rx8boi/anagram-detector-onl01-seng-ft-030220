@@ -1,6 +1,5 @@
 class Anagram
   
-  anagram_array = []
   
   attr_accessor :word
   
