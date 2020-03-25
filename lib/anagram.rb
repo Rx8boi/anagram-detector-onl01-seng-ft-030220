@@ -9,7 +9,7 @@ class Anagram
   end
   
   def match(words)
-    anagram_array.select do |word| 
+    words.select do |word| 
       word.split(" ").sort == @anagram_array.split(" ").sort
     end
   end
